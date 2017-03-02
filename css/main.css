@@ -1303,6 +1303,12 @@ header .logo a {
 	position: relative;
 	text-align: center;
 }
+#services h2{
+    color: white;
+}
+#contact h2{
+    color: white;
+}
 .intro-overlay {
 	position: absolute;
 	top: 0;
