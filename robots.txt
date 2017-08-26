@@ -1,4 +1,0 @@
-User-Agent: *
-Disallow: 
-
-Sitemap: http://ghassen-yahyaoui.me/sitemap.xml

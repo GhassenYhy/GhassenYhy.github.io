@@ -1,600 +1,780 @@
 <!DOCTYPE html>
-<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
-<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!-->
-<html class="no-js" lang="en">
-<!--<![endif]-->
+<html lang="zxx">
 
 <head>
-    <!--- basic page needs
-   ================================================== -->
+    <!-- Meta -->
     <meta charset="utf-8">
-    <title>Yahyaoui Ghassen, CV ingénieur en informatique spécialisé au développement web en Tunisie.</title>
-    <meta name="description" content="Je suis ingénieur en informatique, 23 ans, spécialisé au développement web, durant ma carrière j'ai développer les compétences nécessaires pour réaliser tout type de contenu web, je peux vous être utile dans tout types de projets que se soit applications ou sites web.">
-    <meta name="keywords" content="développeur web ingénieur informatique tunisie motivé discipliné créatif design designer intégrateur esprit technologies css html php php5 symphony2 j2ee jee angularjs javascript js intégration sql cms mongodb nosql fullstack full stack tunis photoshop design template jquery ajax développement magento wordpress" />
-    <meta name="author" content="">
-    <meta name="google-site-verification" content="ltV3p-SvETB0C8aBhP5ZJiYaKV2q1D-3Vg-J4dXi4CE" />
-    <meta name="robots" content="all">
-    
-    <!-- mobile specific metas
-   ================================================== -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <!-- CSS
-   ================================================== -->
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/vendor.css">
-    <!-- script
-   ================================================== -->
-    <script src="js/modernizr.js"></script>
-    <script src="js/pace.min.js"></script>
-    <!-- favicons
-	================================================== -->
-    <link rel="icon" type="image/png" href="favicon.png"> </head>
-<script>
-    (function (i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        i[r] = i[r] || function () {
-            (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date();
-        a = s.createElement(o), m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-    ga('create', 'UA-92726800-1', 'auto');
-    ga('send', 'pageview');
-</script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Responsive One Page CV/Resume/Portfolio Template">
+    <!-- Page title -->
+    <title>Profile - Responsive One Page CV/Resume Template</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel='stylesheet' type='text/css'>
+    <!-- Font Awesome icon CSS -->
+    <link href="./assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!-- ET-Line icon CSS -->
+    <link href="./assets/css/etlinefont.css" rel="stylesheet" type="text/css">
+    <!-- Owl Carousel CSS -->
+    <link href="./assets/css/owl.carousel.css" rel="stylesheet">
+    <!-- Animate CSS -->
+    <link href="./assets/css/animate.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Main Style CSS -->
+    <link href="./assets/css/style.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
 
-<body id="top">
-    <!-- header 
-   ================================================== -->
+<body>
+    <div id="home"></div>
+    <!-- Preloader -->
+    <div class="preloader-area">
+        <div class="spinner">
+            <div class="double-bounce1"></div>
+            <div class="double-bounce2"></div>
+        </div>
+    </div>
+    <!-- End preloader -->
+    <!-- Header -->
     <header>
-        <div class="row">
-            <div class="top-bar"> <a class="menu-toggle" href="#"><span></span></a>
-                <div class="logo"><a href="index.html">Menu</a></div>
-                <nav id="main-nav-wrap">
-                    <ul class="main-navigation">
-                        <li class="current"><a class="smoothscroll" href="#intro" title="">Accueil</a></li>
-                        <li><a class="smoothscroll" href="#about" title="">A propos</a></li>
-                        <li><a class="smoothscroll" href="#resume" title="">Résumé</a></li>
-                        <li><a class="smoothscroll" href="#portfolio" title="">Portfolio</a></li>
-                        <li><a class="smoothscroll" href="#services" title="">Services</a></li>
-                        <li><a class="smoothscroll" href="#contact" title="">Contact</a></li>
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <!-- Start Logo -->
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> <a class="navbar-brand page-scroll" href="#home">Profile</a> </div>
+                <!-- End Logo -->
+                <!-- Navbar-collapse -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="hidden">
+                            <a href="#home"></a>
+                        </li>
+                        <li><a class="page-scroll" href="#about">About</a></li>
+                        <li><a class="page-scroll" href="#skills">Skills</a></li>
+                        <li><a class="page-scroll" href="#services">Services</a></li>
+                        <li><a class="page-scroll" href="#portfolio">Portfolio</a></li>
+                        <li><a class="page-scroll" href="#resume">Resume</a></li>
+                        <li><a class="page-scroll" href="#contact">Contact</a></li>
                     </ul>
-                </nav>
+                </div>
+                <!-- End Navbar-collapse -->
             </div>
-            <!-- /top-bar -->
-        </div>
-        <!-- /row -->
+        </nav>
+        <!-- End Navigation -->
     </header>
-    <!-- /header -->
-    <!-- intro section
-   ================================================== -->
-    <section id="intro">
-        <div class="intro-overlay"></div>
-        <div class="intro-content">
-            <div class="row">
-                <div class="col-twelve">
-                    <h5>- Bienvenue -</h5>
-                    <h1>Je suis Yahyaoui Ghassen.
-                    <p class="intro-position"> <span>Développeur Web</span> <span>Ingénieur en Informatique</span> </p> </h1> 
-                    <a class="button stroke smoothscroll" href="#about" title="">Plus d'info sur moi</a> </div>
-            </div>
-        </div>
-        <!-- /intro-content -->
-        <ul class="intro-social">
-            <li><a href="https://www.facebook.com/ghassen.yahyaoui"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="https://www.behance.net/ghassenyahe889"><i class="fa fa-behance"></i></a></li>
-            <li><a href="https://twitter.com/GhassenYhy"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="https://dribbble.com/kakashi7610"><i class="fa fa-dribbble"></i></a></li>
-            <li><a href="https://www.instagram.com/ghassenyhy/"><i class="fa fa-instagram"></i></a></li>
-        </ul>
-        <!-- /intro-social -->
-    </section>
-    <!-- /intro -->
-    <!-- about section
-   ================================================== -->
-    <section id="about">
-        <div class="row section-intro">
-            <div class="col-twelve">
-                <h5>A propos</h5>
-                <h2>Et si on faisait plus connaissance ?</h2>
-                <br>
-                <div class="intro"> <img height="300" width="220" src="images/pdp3.png" alt="ingénieur web">
-                    <br>
-                    <br>
-                    <p class="lead">Intéressé par l'informatique depuis mon enfance, spécialement par le développement web et la grande variété des technologies que ce terme présente, j'ai décidé à consacrer ma vie professionelle pour ce domaine. J'ai 23 ans, vivant en Tunisie pour le moment. </p>
-                </div>
-            </div>
-        </div>
-        <!-- /section-intro -->
-        <div class="row about-content">
-            <div class="col-six tab-full">
-                <h3>Profil</h3>
-                <p>Je suis quelqu'un d'ambitieux, productif, motivé et cherchant toujours à apporter le meilleur possible dans tout types de projets que je travaille sur.</p>
-                <ul class="info-list">
-                    <li> <strong>Nom Complet:</strong> <span>Yahyaoui Ghassen</span> </li>
-                    <li> <strong>Date De Naissance:</strong> <span>27 Décembre, 1993</span> </li>
-                    <li> <strong>Travail:</strong> <span>Développeur web</span> </li>
-                    <li> <strong>Site Web:</strong> <span>www.ghassen-yahyaoui.me</span> </li>
-                    <li> <strong>Email:</strong> <span>ghassen.yahyaoui@esprit.tn</span> </li>
-                    <li> <strong>Langues:</strong> <span>Anglais - Français - Arabe - Russe</span> </li>
-                </ul>
-                <!-- /info-list -->
-            </div>
-            <div class="col-six tab-full">
-                <h3>Compétences</h3>
-                <p>Grâce aux différents stages que j'ai eu, j'ai réussi à améliorer pas mal de compétences et à maitriser la plupart des technologies de l'époque utilisées dans le développement web. </p>
-                <ul class="skill-bars">
-                    <li>
-                        <div class="progress percent80"><span>80%</span></div> <strong>HTML5/CSS/PHP5/JS/JAVA</strong> </li>
-                    <li>
-                        <div class="progress percent50"><span>50%</span></div> <strong>JQuery/Ajax</strong> </li>
-                    <li>
-                        <div class="progress percent70"><span>70%</span></div> <strong>Symphony2/J2EE</strong> </li>
-                    <li>
-                        <div class="progress percent65"><span>65%</span></div> <strong>AngularJS/NodeJS</strong> </li>
-                    <li>
-                        <div class="progress percent65"><span>65%</span></div> <strong>Wordpress/Magento</strong> </li>
-                    <li>
-                        <div class="progress percent60"><span>60%</span></div> <strong>SQL/MongoDB</strong> </li>
-                    <li>
-                        <div class="progress percent85"><span>85%</span></div> <strong>Design Web</strong> </li>
-                </ul>
-                <!-- /skill-bars -->
-            </div>
-        </div>
-        <div class="row button-section">
-            <div class="col-twelve"> <a href="#contact" title="Hire Me" class="button stroke smoothscroll">Me contacter ?</a> <a href="#" title="Download CV" class="button button-primary">Télécharger CV</a> </div>
-        </div>
-    </section>
-    <!-- /process-->
-    <!-- resume Section
-   ================================================== -->
-    <section id="resume" class="grey-section">
-        <div class="row section-intro">
-            <div class="col-twelve">
-                <h2>Savoir encore plus sur moi ?</h2>
-                <p class="lead">J'ai pas mal d'autres loisirs et intérêts à part le développement web, je suis un bon illustrateur en digital, un Filmmaker, Designer en 3D, je joue de la guitare souvent et j'aime trop voyager.</p>
-            </div>
-        </div>
-        <!-- /section-intro-->
-        <div class="row resume-timeline">
-            <div class="col-twelve resume-header">
-                <h2>Expérience</h2> </div>
-            <!-- /resume-header -->
-            <div class="col-twelve">
-                <div class="timeline-wrap">
-                    <div class="timeline-block">
-                        <div class="timeline-ico"> <i class="fa fa-graduation-cap"></i> </div>
-                        <div class="timeline-header">
-                            <h3>Web Design </h3>
-                            <p>July 2016 - Present</p>
-                        </div>
-                        <div class="timeline-content">
-                            <h4>Fiverr</h4>
-                            <p>Sur fiverr, j'ai eu une bonne expérience en web design en freelance, de même pour le développement web (front end).</p>
-                        </div>
-                    </div>
-                    <!-- /timeline-block -->
-                    <div class="timeline-block">
-                        <div class="timeline-ico"> <i class="fa fa-graduation-cap"></i> </div>
-                        <div class="timeline-header">
-                            <h3>Développeur de jeux vidéos</h3>
-                            <p>July 2016 - September 2016</p>
-                        </div>
-                        <div class="timeline-content">
-                            <h4>GameVault Studios</h4>
-                            <p>A GameVault studios, j'ai eu ma première expérience professionelle en tant que développeur de jeux vidéos, j'ai eu l'occasion d'améliorer mes compétences dans ce domaine, dont je suis très intéressé !</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- /timeline-wrap -->
-            </div>
-            <!-- /col-twelve -->
-        </div>
-        <!-- /resume-timeline -->
-        <div class="row resume-timeline">
-            <div class="col-twelve resume-header">
-                <h2>Education</h2> </div>
-            <!-- /resume-header -->
-            <div class="col-twelve">
-                <div class="timeline-wrap">
-                    <div class="timeline-block">
-                        <div class="timeline-ico"> <i class="fa fa-briefcase"></i> </div>
-                        <div class="timeline-header">
-                            <h3>Baccalauréat </h3>
-                            <p>Juin 2012</p>
-                        </div>
-                        <div class="timeline-content">
-                            <h4>Institut de Bargou</h4>
-                            <p>j'ai eu mon baccalauréat en sciences expérimentales à l'institut de Bargou.</p>
-                        </div>
-                    </div>
-                    <!-- /timeline-block -->
-                    <div class="timeline-block">
-                        <div class="timeline-ico"> <i class="fa fa-briefcase"></i> </div>
-                        <div class="timeline-header">
-                            <h3>Licence fondamentale en informatique</h3>
-                            <p>September 2012 - June 2015</p>
-                        </div>
-                        <div class="timeline-content">
-                            <h4>Faculté des sciences de Tunis</h4>
-                            <p>Après le baccalauréat, j'ai décidé à consacrer le reste de mes études dans le domaine de l'informatique, j'ai étudié alors à la faculté des sciences de Tunis (FST).</p>
-                        </div>
-                    </div>
-                    <!-- /timeline-block -->
-                    <div class="timeline-block">
-                        <div class="timeline-ico"> <i class="fa fa-briefcase"></i> </div>
-                        <div class="timeline-header">
-                            <h3>Diplome d'ingénieur</h3>
-                            <p>September 2015 - Present</p>
-                        </div>
-                        <div class="timeline-content">
-                            <h4>ESPRIT</h4>
-                            <p>ESPRIT est la faculté où j'étudie maintenant, j'ai choisi le développement web comme spécialité.</p>
-                        </div>
-                    </div>
-                    <!-- /timeline-block -->
-                </div>
-                <!-- /timeline-wrap -->
-            </div>
-            <!-- /col-twelve -->
-        </div>
-        <!-- /resume-timeline -->
-    </section>
-    <!-- /features -->
-    <!-- Portfolio Section
-   ================================================== -->
-    <section id="portfolio">
-        <div class="row section-intro">
-            <div class="col-twelve">
-                <h5>Portfolio</h5>
-                <h2>Quelques de mes travaux.</h2>
-                <p class="lead">Voici quelque prises de certains projets dont j'ai participé.</p>
-            </div>
-        </div>
-        <!-- /section-intro-->
-        <div class="row portfolio-content">
-            <div class="col-twelve">
-                <!-- portfolio-wrapper -->
-                <div id="folio-wrapper" class="block-1-2 block-mob-full stack">
-                    <div class="bgrid folio-item">
-                        <div class="item-wrap"> <img src="images/portfolio/site1.jpg" alt="symphony2">
-                            <a href="#modal-01" class="overlay">
-                                <div class="folio-item-table">
-                                    <div class="folio-item-cell">
-                                        <h3 class="folio-title">Site Web</h3> <span class="folio-types">
-		     					       	  Développement web
-		     					       </span> </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <!-- /folio-item -->
-                    <div class="bgrid folio-item">
-                        <div class="item-wrap"> <img src="images/portfolio/site2.jpg" alt="Front end design">
-                            <a href="#modal-02" class="overlay">
-                                <div class="folio-item-table">
-                                    <div class="folio-item-cell">
-                                        <h3 class="folio-title">Site web</h3> <span class="folio-types">
-		     					       	  Design web
-		     					      </span> </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <!-- /folio-item -->
-                    <div class="bgrid folio-item">
-                        <div class="item-wrap"> <img src="images/portfolio/site3.png" alt="Html css bootstrap">
-                            <a href="#modal-03" class="overlay">
-                                <div class="folio-item-table">
-                                    <div class="folio-item-cell">
-                                        <h3 class="folio-title">Site web</h3> <span class="folio-types">
-		     					       	  Design web
-		     					      </span> </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <!-- /folio-item -->
-                    <div class="bgrid folio-item">
-                        <div class="item-wrap"> <img src="images/portfolio/site5.jpg" alt="J2EE">
-                            <a href="#modal-05" class="overlay">
-                                <div class="folio-item-table">
-                                    <div class="folio-item-cell">
-                                        <h3 class="folio-title">Site web</h3> <span class="folio-types">
-		     					       	  Développement web
-		     					      </span> </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <!-- /folio-item -->
-                    <div class="bgrid folio-item">
-                        <div class="item-wrap"> <img src="images/portfolio/site6.jpg" alt="développement full stack">
-                            <a href="#modal-06" class="overlay">
-                                <div class="folio-item-table">
-                                    <div class="folio-item-cell">
-                                        <h3 class="folio-title">Site web</h3> <span class="folio-types">
-		     					       	  Développement web
-		     					      </span> </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <!-- /folio-item -->
-                    <!-- modal popups - begin
-	            ============================================================= -->
-                    <div id="modal-01" class="popup-modal slider mfp-hide">
-                        <div class="media"> <img src="images/portfolio/site1.jpg" alt="SQL" /> </div>
-                        <div class="description-box">
-                            <h4>AmbitEnergy</h4>
-                            <p>J'était un développeur web front end pour ce projet, j'ai principalement utilisé php, javascript, html, css, jquery...</p>
-                            <div class="categories">Développement web</div>
-                        </div>
-                        <div class="link-box"> <a>Détails</a> <a href="#" class="popup-modal-dismiss">Fermer</a> </div>
-                    </div>
-                    <!-- /modal-01 -->
-                    <div id="modal-02" class="popup-modal slider mfp-hide">
-                        <div class="media"> <img src="images/portfolio/site2.jpg" alt="dreamweaver" /> </div>
-                        <div class="description-box">
-                            <h4>Ardia</h4>
-                            <p>J'ai aidé sur la partie graphique concernant ce site web, avec bootstrap.</p>
-                            <div class="categories">Design web</div>
-                        </div>
-                        <div class="link-box"> <a>Détails</a> <a href="#" class="popup-modal-dismiss">Fermer</a> </div>
-                    </div>
-                    <!-- /modal-02 -->
-                    <div id="modal-03" class="popup-modal slider mfp-hide">
-                        <div class="media"> <img src="images/portfolio/site3.png" alt="netbeans" /> </div>
-                        <div class="description-box">
-                            <h4>CarrefourMobile</h4>
-                            <p>J'ai travailler en tant que designer pour cette application.</p>
-                            <div class="categories">Design web</div>
-                        </div>
-                        <div class="link-box"> <a>Détails</a> <a href="#" class="popup-modal-dismiss">Fermer</a> </div>
-                    </div>
-                    <!-- /modal-04 -->
-                    <div id="modal-05" class="popup-modal slider mfp-hide">
-                        <div class="media"> <img src="images/portfolio/site5.jpg" alt="développeur web" /> </div>
-                        <div class="description-box">
-                            <h4>cathg</h4>
-                            <p>Je fesais partie de l'équipe du développement web pour ce projet.</p>
-                            <div class="categories">Développement web</div>
-                        </div>
-                        <div class="link-box"> <a>Détails</a> <a href="#" class="popup-modal-dismiss">Fermer</a> </div>
-                    </div>
-                    <!-- /modal-05 -->
-                    <div id="modal-06" class="popup-modal slider mfp-hide">
-                        <div class="media"> <img src="images/portfolio/site6.jpg" alt="backoffice" /> </div>
-                        <div class="description-box">
-                            <h4>FlashXml</h4>
-                            <p>J'ai aidé sur la partie back end sur ce site web.</p>
-                            <div class="categories">Développement web</div>
-                        </div>
-                        <div class="link-box"> <a>Détails</a> <a href="#" class="popup-modal-dismiss">Fermer</a> </div>
-                    </div>
-                    <!-- /modal-06 -->
-                    <!-- modal popups - end
-	            ============================================================= -->
-                </div>
-                <!-- /portfolio-wrapper -->
-            </div>
-            <!-- /twelve -->
-        </div>
-        <!-- /portfolio-content -->
-    </section>
-    <!-- /portfolio -->
-    <!-- CTA Section
-   ================================================== -->
-    <!-- /cta -->
-    <!-- services Section
-   ================================================== -->
-    <section id="services">
+    <!-- End Header -->
+    <!-- Welcome area -->
+    <div class="welcome-area">
         <div class="overlay"></div>
-        <div class="row section-intro">
-            <div class="col-twelve">
-                <h5>Services</h5>
-                <h2>En quoi puis-je vous être utile ?</h2>
-                <p class="lead">N'hésitez pas à me contacter via les informations mentionnées en bàs de la page.</p>
-            </div>
+        <div class="container">
+            <div class="intro-text-area wow fadeInDown">
+                <div class="intro-text">Welcome to my site!</div>
+                <div class="type-text">
+                    <div id="typed-strings">
+                        <h1 id="fsth">Hi, I am Ghassen Yahyaoui</h1>
+                        <p id="fstp">I am a Web Developer & Graphic Designer</p>
+                        <!--
+                        <p>I have 4 Years Experience</p>
+                        <p>I am Very Hard Worker</p>
+-->
+                    </div> <span id="typed" style="white-space:pre;"></span> </div> <a href="#about" class="page-scroll btn btn-white">More About Me</a> </div>
         </div>
-        <!-- /section-intro -->
-        <div class="row services-content">
-            <div id="owl-slider" class="owl-carousel services-list">
-                <div class="service"> <span class="icon"><i class="icon-earth"></i></span>
-                    <div class="service-content">
-                        <h3>Design web</h3>
-                        <p class="desc">Je peux vous aider à tout type de design graphique pour vos sites et applications web. </p>
-                    </div>
+    </div>
+    <!-- End Welcome area -->
+    <!-- About Section -->
+    <section id="about" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2 class="section-heading">About me</h2>
+                    <!--                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>--></div>
+                <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 text-center media wow zoomIn"> <img alt="" class="img-circle img-me" src="./assets/img/me2.jpg"> </div>
+                <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12 media">
+                    <h3 class="name">Ghassen Yahyaoui</h3>
+                    <h4 class="font-thin">Web Developer</h4>
+                    <p class="text-muted">Hello! I’m Ghassen Yahyaoui, a tunisian software engineering student specialising in Web Development. Experienced with all stages of the development cycle for dynamic web projects. Having an in-depth knowledge including advanced web programming languages and frameworks.</p>
                 </div>
-                <!-- /service -->
-                <div class="service"> <span class="icon"><i class="icon-window"></i></span>
-                    <div class="service-content">
-                        <h3>Développement web</h3>
-                        <p class="desc">Je peux vous être utile en tant que développeur web. </p>
-                    </div>
-                </div>
-                <!-- /service -->
-                <div class="service"> <span class="icon"><i class="icon-paint-brush"></i></span>
-                    <div class="service-content">
-                        <h3>Développeur de jeux vidéos</h3>
-                        <p class="desc">Le domaine de développement des jeux vidéos est l'un de ceux que je maitrise bien. </p>
-                    </div>
-                </div>
-                <!-- /services-list -->
             </div>
-            <!-- /services-content -->
+            <div class="b">
+                <div class="infos">
+                    <h4 class="bolds">- Date of birth -<h5> 27 December 1993</h5></h4></div>
+                <br>
+                <div class="infos">
+                    <h4 class="bolds">- Natonality -<h5> Tunisian</h5></h4></div>
+                <br>
+                <div class="infos">
+                    <h4 class="bolds">- Laguages -<h5>Arabic - English - French - Russian</h5></h4></div>
+                <br> </div><a id="butt" class="download-resume-btn btn btn-blue wow bounce" role="button" href="https://drive.google.com/uc?export=download&id=0B0Wi6dJo_Q4KZjl3ZHpWYUR0RE0">Download Resume</a></div>
     </section>
-    <!-- /services -->
-    <!-- stats Section
-   ================================================== -->
-    <section id="stats" class="count-up">
-        <div class="row">
-            <div class="col-twelve">
-                <div class="block-1-6 block-s-1-3 block-tab-1-2 block-mob-full stats-list">
-                    <div class="bgrid stat">
-                        <div class="icon-part"> <i class="icon-pencil-ruler"></i> </div>
-                        <h3 class="stat-count">
-							22
-						</h3>
-                        <h5 class="stat-title">
-							Projets complétés
-						</h5> </div>
-                    <!-- /stat -->
-                    <div class="bgrid stat">
-                        <div class="icon-part"> <i class="icon-users"></i> </div>
-                        <h3 class="stat-count">
-							20
-						</h3>
-                        <h5 class="stat-title">
-							Avis positifs
-						</h5> </div>
-                    <!-- /stat -->
-                    <div class="bgrid stat">
-                        <div class="icon-part"> <i class="icon-badge"></i> </div>
-                        <h3 class="stat-count">
-							5
-						</h3>
-                        <h5 class="stat-title">
-							Prix gagnés
-						</h5> </div>
-                    <!-- /stat -->
-                    <div class="bgrid stat">
-                        <div class="icon-part"> <i class="icon-light-bulb"></i> </div>
-                        <h3 class="stat-count">
-							12
-						</h3>
-                        <h5 class="stat-title">
-							Idées innovantes
-						</h5> </div>
-                    <!-- /stat -->
-                    <div class="bgrid stat">
-                        <div class="icon-part"> <i class="icon-cup"></i> </div>
-                        <h3 class="stat-count">
-							10
-						</h3>
-                        <h5 class="stat-title">
-							Idées réalisées
-						</h5> </div>
-                    <!-- /stat -->
-                    <div class="bgrid stat">
-                        <div class="icon-part"> <i class="icon-clock"></i> </div>
-                        <h3 class="stat-count">
-							4221
-						</h3>
-                        <h5 class="stat-title">
-							Heures
-						</h5> </div>
-                    <!-- /stat -->
-                </div>
-                <!-- /stats-list -->
+    <!-- End About Section -->
+    <!-- Skills Section -->
+    <section id="skills" class="skills section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2 class="section-heading">Skills</h2>
+                    <h3 class="section-subheading text-muted">During my six years academic career, I have developed the skills mentioned below</h3> </div>
             </div>
-            <!-- /twelve -->
+            <div class="row">
+                <div class="col-md-4 col-sm-6 skillsArea">
+                    <div class="skills"> <span data-percent="70" class="chart skill-bg"> <span class="percent">70</span>
+                        <canvas height="152" width="152"></canvas>
+                        </span>
+                        <h4>Programming</h4>
+                        <p>Java / C# / C++ / C</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 skillsArea">
+                    <div class="skills"> <span data-percent="90" class="chart skill-bg"> <span class="percent">90</span>
+                        <canvas height="152" width="152"></canvas>
+                        </span>
+                        <h4>Graphic Design</h4>
+                        <p>A.Photoshop / A.Illustrator / A.AfterEffect </p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 skillsArea">
+                    <div class="skills"> <span data-percent="50" class="chart skill-bg"> <span class="percent">50</span>
+                        <canvas height="152" width="152"></canvas>
+                        </span>
+                        <h4>Frameworks</h4>
+                        <p>AngularJS / ExpressJS / Symfony2</p>
+                    </div>
+                </div>
+                <!--
+                <div class="col-md-4 col-sm-6 skillsArea">
+                    <div class="skills"> <span data-percent="90" class="chart skill-bg"> <span class="percent">90</span>
+                        <canvas height="152" width="152"></canvas>
+                        </span>
+                        <h4></h4>
+                        <p></p>
+                    </div>
+                </div>
+-->
+                <div class="col-md-4 col-sm-6 skillsArea">
+                    <div class="skills"> <span data-percent="75" class="chart skill-bg"> <span class="percent">75</span>
+                        <canvas height="152" width="152"></canvas>
+                        </span>
+                        <h4>Web Development</h4>
+                        <p>PHP5 / HTML5 / CSS / XML / J2EE / JavaScript / JQuery / AJAX / PLSQL / MySQL / MongoDB / NodeJS / ASP.net</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 skillsArea">
+                    <div class="skills"> <span data-percent="60" class="chart skill-bg"> <span class="percent">60</span>
+                        <canvas height="152" width="152"></canvas>
+                        </span>
+                        <h4>Game Engines</h4>
+                        <p>Unity3D / Unreal Engine</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <!-- /row -->
     </section>
-    <!-- /stats -->
-    <!-- contact
-   ================================================== -->
-    <section id="contact">
-        <div class="row section-intro">
-            <div class="col-twelve">
-                <h5>Contact</h5>
-                <h2>J'attends vos instructions.</h2> </div>
+    <!-- End Skills Section -->
+    <!-- Status Section -->
+    <section id="status" class="section-padding">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-sm-3 col-xs-6 single-status"> <i class="icon-briefcase fa-3x"></i>
+                    <h2 class="counter">22</h2>
+                    <p>Projects Done</p>
+                </div>
+                <div class="col-sm-3 col-xs-6 single-status"> <i class="icon-alarmclock fa-3x"></i>
+                    <h2 class="counter">3234</h2>
+                    <p>Hours of Work</p>
+                </div>
+                <div class="col-sm-3 col-xs-6 single-status"> <i class="icon-trophy fa-3x"></i>
+                    <h2 class="counter">6</h2>
+                    <p>Awards Won</p>
+                </div>
+                <div class="col-sm-3 col-xs-6 single-status"> <i class="icon-happy fa-3x"></i>
+                    <h2 class="counter">15</h2>
+                    <p>Happy Clients</p>
+                </div>
+            </div>
         </div>
-        <!-- /section-intro -->
-        <div class="row contact-form">
-            <div class="col-twelve">
-                <!-- form -->
-                <form name="contactForm" id="contactForm" method="post" action="ghassen.yahyaoui@esprit.tn">
-                    <fieldset>
-                        <div class="form-field">
-                            <input name="contactName" type="text" id="contactName" placeholder="Nom" value="" minlength="2" required=""> </div>
-                        <div class="form-field">
-                            <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required=""> </div>
-                        <div class="form-field">
-                            <input name="contactSubject" type="text" id="Sujet" placeholder="Sujet" value=""> </div>
-                        <div class="form-field">
-                            <textarea name="contactMessage" id="contactMessage" placeholder="Description" rows="10" cols="50" required=""></textarea>
+    </section>
+    <!-- End Status Section -->
+    <!-- Services Section -->
+    <section id="services" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2 class="section-heading">Services</h2>
+                    <h3 class="section-subheading text-muted">Here are the main tasks I can help you with.</h3> </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-3">
+                    <div class="single-service"> <span class="fa-stack fa-4x">
+                        <i class="icon-adjustments text-primary"></i>
+                        </span>
+                        <h4 class="service-heading">Web Development</h4>
+                        <p class="text-muted">Web development is the field I'm academically specialising in.</p>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br> </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="single-service"> <span class="fa-stack fa-4x">
+                        <i class="icon-paintbrush text-primary"></i>
+                        </span>
+                        <h4 class="service-heading">Web Design</h4>
+                        <p class="text-muted">I can help you designing graphics, backgrounds and templates for your web pages.</p>
+                        <br>
+                        <br>
+                        <br>
+                        <br> </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="single-service"> <span class="fa-stack fa-4x">
+                        <i class="icon-tools text-primary"></i>
+                        </span>
+                        <h4 class="service-heading">Graphic Design</h4>
+                        <p class="text-muted">As a freelancer, I worked for more than six years as a graphic designer, and mastered most of the required softwares for video production and graphic editing.</p>
+                        <br> </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="single-service"> <span class="fa-stack fa-4x">
+                        <i class="icon-piechart text-primary"></i>
+                        </span>
+                        <h4 class="service-heading">VR & AR development</h4>
+                        <p class="text-muted">I have an knowledge experience in both virtual and augmented reality app development fields, I have done a variety of apps using recent technologies like the Oculus Rift </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Services Section -->
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2 class="section-heading">Portfolio</h2>
+                    <h3 class="section-subheading text-muted">Here are the most important I have worked on as a web developer.</h3> </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolio-1" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i> </div>
+                        </div> <img src="./assets/img/portfolio/one.jpg" class="img-responsive" alt=""> </a>
+                    <div class="portfolio-caption">
+                        <h4>VR driving application (2016-2017)</h4>
+                        <p class="text-muted">MEAN stack & VR</p>
+                        <br> </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolio-2" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i> </div>
+                        </div> <img src="./assets/img/portfolio/two.jpg" class="img-responsive" alt=""> </a>
+                    <div class="portfolio-caption">
+                        <h4>Coffee Bean Crowdsourcing project (2016-2017)</h4>
+                        <p class="text-muted">Crowdsourcing platform</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolio-3" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i> </div>
+                        </div> <img src="./assets/img/portfolio/three.jpg" class="img-responsive" alt=""> </a>
+                    <div class="portfolio-caption">
+                        <h4>All for deal Platform (2015-2016)</h4>
+                        <p class="text-muted">E-Commerce</p>
+                        <br> </div>
+                </div>
+                <div id="fourth" class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolio-4" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i> </div>
+                        </div> <img src="./assets/img/portfolio/four.jpg" class="img-responsive" alt=""> </a>
+                    <div class="portfolio-caption">
+                        <h4>End of studies project (2015-2016)</h4>
+                        <p class="text-muted">AR app development</p>
+                    </div>
+                </div>
+                <!--
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolio-5" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i> </div>
+                        </div> <img src="./assets/img/portfolio/5.jpg" class="img-responsive" alt=""> </a>
+                    <div class="portfolio-caption">
+                        <h4>Project Name</h4>
+                        <p class="text-muted">Category</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolio-6" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content"> <i class="fa fa-plus fa-3x"></i> </div>
+                        </div> <img src="./assets/img/portfolio/6.jpg" class="img-responsive" alt=""> </a>
+                    <div class="portfolio-caption">
+                        <h4>Project Name</h4>
+                        <p class="text-muted">Category</p>
+                    </div>
+                </div>
+--></div>
+        </div>
+    </section>
+    <!-- End Portfolio Section -->
+    <!-- Portfolio Project 1 -->
+    <div class="portfolio-modal modal fade" id="portfolio-1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>VR driving application</h2>
+                            <p class="item-intro text-muted">MEAN stack & VR</p> <img class="img-responsive img-centered" src="./assets/img/portfolio/one.jpg" alt="">
+                            <p>A Mean Stack composed application, where an extensive variety of technologies was used like MongoDB, ExpressJS, AngularJS and NodeJS, interacting with a Unity3D VR application made based on the Google cardboard.</p>
+                            <ul class="list-inline">
+                                <li>Date: <a href="#">2016-2017</a></li>
+                                <!--                                <li>Client: <a href="#">John Doe</a></li>-->
+                                <li>Category: <a href="#">Mean stack & VR</a></li>
+                            </ul>
+                            <button type="button" class="btn btn-blue" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                         </div>
-                        <div class="form-field">
-                            <button class="submitform" type="submit" id="submit">Envoyer</button>
-                            <div id="submit-loader">
-                                <div class="text-loader">Envoie...</div>
-                                <div class="s-loader">
-                                    <div class="bounce1"></div>
-                                    <div class="bounce2"></div>
-                                    <div class="bounce3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Portfolio Project 1 -->
+    <!-- Portfolio Project 2 -->
+    <div class="portfolio-modal modal fade" id="portfolio-2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Coffee Bean Crowdsourcing project</h2>
+                            <p class="item-intro text-muted">Crowdsourcing multi-Platform.</p> <img class="img-responsive img-centered" src="./assets/img/portfolio/two.jpg" alt="">
+                            <p>A crowdsourcing based platform, providing a Front and a Back office, exposing restful web services developed with J2EE and deployed on a Wildfly9 server, both of AngularJS and ASP.net were used too for the front and the back office. </p>
+                            <ul class="list-inline">
+                                <li>Date: <a href="#">2016-2017</a></li>
+                                <!--                                <li>Client: <a href="#">John Doe</a></li>-->
+                                <li>Category: <a href="#">JEE</a></li>
+                            </ul>
+                            <button type="button" class="btn btn-blue" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Portfolio Project 2 -->
+    <!-- Portfolio Project 3 -->
+    <div class="portfolio-modal modal fade" id="portfolio-3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>All for deal Platform</h2>
+                            <p class="item-intro text-muted">E-Commerce multi-platform</p> <img class="img-responsive img-centered" src="./assets/img/portfolio/three.jpg" alt="">
+                            <p>An e-Commerce platform composed by 3 major applications developed with Symfony2 framework, a J2ME mobile app and a javaFx desktop app for the administrative part, all interacting in real time with the same MySQL database (agile methodology followed).</p>
+                            <ul class="list-inline">
+                                <li>Date: <a href="#">2015-2016</a></li>
+                                <!--                                <li>Client: <a href="#">John Doe</a></li>-->
+                                <li>Category: <a href="#">E-Commerce</a></li>
+                            </ul>
+                            <button type="button" class="btn btn-blue" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Portfolio Project 3 -->
+    <!-- Portfolio Project 4 -->
+    <div class="portfolio-modal modal fade" id="portfolio-4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>End of studies project</h2>
+                            <p class="item-intro text-muted">End of studies project: Smart AR Encyclopedia</p> <img class="img-responsive img-centered" src="./assets/img/portfolio/four.jpg" alt="">
+                            <p>Conceived and developed a smart interacting augmented reality application on Unity3D based on Vuforia plugin. </p>
+                            <ul class="list-inline">
+                                <li>Date: <a href="#">2015-2016</a></li>
+                                <!--                                <li>Client: <a href="#">John Doe</a></li>-->
+                                <li>Category: <a href="#">Augmented Reality apps</a></li>
+                            </ul>
+                            <button type="button" class="btn btn-blue" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Portfolio Project 4 -->
+    <!-- Portfolio Project 5 -->
+    <div class="portfolio-modal modal fade" id="portfolio-5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Project 5</h2>
+                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p> <img class="img-responsive img-centered" src="./assets/img/portfolio/5.jpg" alt="">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In esse minus quia a nostrum velit hic aut, at vitae saepe provident nihil, quisquam libero voluptas amet blanditiis quod iure sapiente.</p>
+                            <ul class="list-inline">
+                                <li>Date: <a href="#">April 2017</a></li>
+                                <li>Client: <a href="#">John Doe</a></li>
+                                <li>Category: <a href="#">Graphic Design</a></li>
+                            </ul>
+                            <button type="button" class="btn btn-blue" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Portfolio Project 5 -->
+    <!-- Portfolio Project 6 -->
+    <div class="portfolio-modal modal fade" id="portfolio-6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Project 6</h2>
+                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p> <img class="img-responsive img-centered" src="./assets/img/portfolio/6.jpg" alt="">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione illo provident consectetur doloribus ab fugit, possimus numquam? Amet, error alias, hic, sint neque sequi dolorem atque recusandae obcaecati ducimus beatae.</p>
+                            <ul class="list-inline">
+                                <li>Date: <a href="#">April 2017</a></li>
+                                <li>Client: <a href="#">John Doe</a></li>
+                                <li>Category: <a href="#">PHP</a></li>
+                            </ul>
+                            <button type="button" class="btn btn-blue" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Portfolio Project 6 -->
+    <!-- Hire me Section -->
+    <div id="hire-me">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-9 wow fadeIn">
+                    <h2>I am currently available for Work</h2> </div>
+                <div class="col-md-3"> <a class="page-scroll btn btn-white2 wow bounceIn" href="#contact">Hire Me</a> </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Hire me Section -->
+    <!-- Resume Section -->
+    <section id="resume" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2 class="section-heading">Resume</h2>
+                    <h3 class="section-subheading text-muted">Below, you can find my academic progress and the experiences I had.</h3> </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="timeline">
+                        <!-- Exprience -->
+                        <li class="timeline-inverted">
+                            <div class="timeline-image"> <span class="ico wow bounceIn">
+                                    <i class="fa fa-briefcase"></i>
+                                </span> </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h2 class="subheading">Work Experience</h2> </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Being a part of a group and doing tasks to achieve a common goal has been always the best part of the projects I have worked on in different companies. </p>
                                 </div>
                             </div>
-                        </div>
-                    </fieldset>
-                </form>
-                <!-- Form End -->
-                <!-- contact-warning -->
-                <div id="message-warning"> </div>
-                <!-- contact-success -->
-                <div id="message-success"> <i class="fa fa-check"></i>Votre message a été envoyé, merci!
-                    <br> </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image">
+                                <h4>Jun 2017
+                                    <br>-
+                                    <br>Present
+                                </h4> </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>Geek & Genius</h4>
+                                    <h4 class="subheading">VR & AR app developer</h4> </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">This is my current position, G&G is a company specialized in developing and designing all kinds of Augmented or Virtual reality applications, using mostly game engines and advanced hardware devices like the Oculus Rif.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <h4>Jun 2016
+                                    <br>-
+                                    <br>Sept 2016
+                                </h4> </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>MadCat studio</h4>
+                                    <h4 class="subheading">Game developer and designer</h4> </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Where I had my first professional experience in the game development field on Unity3D.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <!--
+                        <li>
+                            <div class="timeline-image">
+                                <h4>Apr 2012
+                                    <br>-
+                                    <br>May 2013
+                                </h4> </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>Company Name</h4>
+                                    <h4 class="subheading">Web Designer</h4> </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam amet quaerat ratione dolore ullam nesciunt, adipisci minima iure aperiam! Unde, similique. Ratione porro aspernatur recusandae.</p>
+                                </div>
+                            </div>
+                        </li>
+-->
+                        <!-- End Exprience -->
+                        <!-- Education -->
+                        <li class="timeline-inverted">
+                            <div class="timeline-image"> <span class="ico wow bounceIn">
+                                    <i class="fa fa-graduation-cap"></i>
+                                </span> </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h2 class="subheading">Education</h2> </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">After getting graduated from high school, I have decided to consacrate the rest of my academic career studying computer sciences.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image">
+                                <h4>sep 2015
+                                    <br>-
+                                    <br>Jun 2018
+                                </h4> </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>ESPRIT</h4>
+                                    <h4 class="subheading">GRADUATE: SOFTWARE ENGINEERING DEGREE</h4> </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">After getting my fundamental licence in computer sciences, I’ve set a new goal, which was the computer engineering diploma and I have decided to follow the web development speciality in the second year, 2018 will be my final graduation year !</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <h4>Sep 2012
+                                    <br>-
+                                    <br>Jun 2015
+                                </h4> </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>FST el Manar</h4>
+                                    <h4 class="subheading">UNDERGRADUATE: COMPUTER SCIENCE BACHELOR</h4> </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">I decided to consecrate my academic career studying the computer sciences field, and the FST was the university where I started it. </p>
+                                </div>
+                            </div>
+                        </li>
+                        <!--
+                        <li>
+                            <div class="timeline-image">
+                                <h4>Sep 2007
+                                    <br>-
+                                    <br>May 2008
+                                </h4> </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>University Name</h4>
+                                    <h4 class="subheading">Course/Degree name</h4> </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                </div>
+                            </div>
+                        </li>
+-->
+                        <!-- End Education -->
+                    </ul>
+                </div>
             </div>
-            <!-- /col-twelve -->
         </div>
-        <!-- /contact-form -->
-        <div class="row contact-info">
-            <div class="col-four tab-full">
-                <div class="icon"> <i class="icon-pin"></i> </div>
-                <h5>ou me trouver</h5>
-                <p> El Ghazela, Tunis
-                    <br> Résidence Essalem 2
-                    <br> Etage 4 Appt 5 </p>
-            </div>
-            <div class="col-four tab-full collapse">
-                <div class="icon"> <i class="icon-mail"></i> </div>
-                <h5>Email</h5>
-                <p>ghassen.yahyaoui@esprit.tn
-                    <br> </p>
-            </div>
-            <div class="col-four tab-full">
-                <div class="icon"> <i class="icon-phone"></i> </div>
-                <h5>Appelez moi sur</h5>
-                <p>Mobile: (+216) 95780270
-                    <br> </p>
-            </div>
-        </div>
-        <!-- /contact-info -->
     </section>
-    <!-- /contact -->
-    <!-- footer
-   ================================================== -->
-    <footer>
-        <div class="row">
-            <div class="col-six tab-full pull-right social">
-                <ul class="footer-social">
-                    <li><a href="https://www.facebook.com/ghassen.yahyaoui"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="https://www.behance.net/ghassenyahe889"><i class="fa fa-behance"></i></a></li>
-                    <li><a href="https://twitter.com/GhassenYhy"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="https://dribbble.com/kakashi7610"><i class="fa fa-dribbble"></i></a></li>
-                    <li><a href="https://www.instagram.com/ghassenyhy/"><i class="fa fa-instagram"></i></a></li>
-                </ul>
+    <!-- End Resume Section -->
+    <!-- Clients -->
+    <!--
+    <div class="clients bg-clients">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="client-logo">
+                        <a href="#"><img src="./assets/img/client-logos/1.png" alt="image"></a>
+                        <a href="#"><img src="./assets/img/client-logos/2.png" alt="image"></a>
+                        <a href="#"><img src="./assets/img/client-logos/3.png" alt="image"></a>
+                        <a href="#"><img src="./assets/img/client-logos/4.png" alt="image"></a>
+                        <a href="#"><img src="./assets/img/client-logos/5.png" alt="image"></a>
+                        <a href="#"><img src="./assets/img/client-logos/6.png" alt="image"></a>
+                        <a href="#"><img src="./assets/img/client-logos/1.png" alt="image"></a>
+                        <a href="#"><img src="./assets/img/client-logos/2.png" alt="image"></a>
+                        <a href="#"><img src="./assets/img/client-logos/3.png" alt="image"></a>
+                    </div>
+                </div>
             </div>
-            <div class="col-six tab-full">
-                <div class="copyright"> <span>© Copyright 2016. Design by styleshout</span> </div>
-            </div>
-            <div id="go-top"> <a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a> </div>
         </div>
-        <!-- /row -->
-    </footer>
-    <div id="preloader">
-        <div id="loader"></div>
     </div>
-    <!-- Java Script
-   ================================================== -->
-    <script src="js/jquery-2.1.3.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
+-->
+    <!-- End Clients -->
+    <!-- Contact section -->
+    <section id="contact" class="section-padding">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2 class="section-heading">Contact</h2>
+                    <h3 class="section-subheading text-dark">Feel free to contact me through the information mentioned below or via Email.</h3> </div>
+            </div>
+            <div class="row">
+                <!-- Contact details -->
+                <div class="col-md-5">
+                    <div class="form-text">
+                        <h4>Details</h4>
+                        <p>You can check my facebook, linkedIn and twitter accounts through the icons in the bottom of the page.</p>
+                        <br>
+                        <p><i class="fa fa-map-marker fa-lg"></i> Essalem2 Residence, El Ghazela, Ariana, Tunisia</p>
+                        <p><i class="fa fa-mobile fa-lg"></i> +216 95 780 270</p>
+                        <p><i class="fa fa-envelope-o"></i> ghassen.yahyaoui@esprit.tn</p>
+                        <!--                        <p><i class="fa fa-link"></i> www.websitename.com</p>-->
+                    </div>
+                </div>
+                <!-- End Contact details -->
+                
+                    <form name="sentMessage" method="post" id="contactForm">
+                        <div class="col-md-7">
+                            <div class="form-group">
+                                <input name="name" type="text" class="form-control" placeholder="Your Name" id="name" required data-validation-required-message="Please enter your name.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="form-group">
+                                <input name="email" type="email" class="form-control" placeholder="Your Email" id="email" required data-validation-required-message="Please enter your email address.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="form-group">
+                                <input name="tel" type="tel" class="form-control" placeholder="Your Phone" id="phone" required data-validation-required-message="Please enter your phone number.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="form-group">
+                                <textarea name="message" class="form-control" placeholder="Your Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div id="success"></div>
+                            <button type="submit" class="btn btn-white wow bounceIn">Send Message</button>
+                        </div>
+                    </form>
+                    <div class="clearfix"></div>
+            </div>
+        </div>
+    </section>
+    <!-- End Contact section -->
+    <!-- Footer -->
+    <footer>
+        <div class="container wow fadeIn">
+            <div class="scrollup text-right"> <a class="page-scroll" href="#home"><i class="fa fa fa-chevron-up"></i></a> </div>
+            <div class="row">
+                <div class="col-md-5 col-sm-5 text-left copyright-area"> <span class="copyright">All rights reserved &copy; Profile 2017 </span> </div>
+                <!-- Social Icons -->
+                <div class="col-md-7 col-sm-7 text-right">
+                    <ul class="list-inline social-buttons">
+                        <li><a href="https://www.facebook.com/ghassen.yahyaoui"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/GhassenYhy"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/ghassen-yahyaoui-206aba116/"><i class="fa fa-linkedin"></i></a></li>
+                        <!--
+                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+-->
+                    </ul>
+                </div>
+                <!-- End Social Icons -->
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+    <!-- jQuery -->
+    <script src="./assets/js/jquery-1.12.4.min.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <!-- Easing JS -->
+    <script src="./assets/js/jquery.easing.min.js"></script>
+    <!-- Easy Pie Chart JS -->
+    <script src="./assets/js/jquery.easypiechart.js"></script>
+    <!-- Typed JS -->
+    <script src="./assets/js/typed.min.js"></script>
+    <!-- Classie JS -->
+    <script src="./assets/js/classie.js"></script>
+    <!-- Animated Header JS -->
+    <script src="./assets/js/cbpAnimatedHeader.js"></script>
+    <!-- Waypoints JS -->
+    <script src="./assets/js/waypoints.min.js"></script>
+    <!-- Counter up JS -->
+    <script src="./assets/js/jquery.counterup.min.js"></script>
+    <!-- Wow JS -->
+    <script src="./assets/js/wow.min.js"></script>
+    <!-- Owl Carousel JS -->
+    <script src="./assets/js/owl.carousel.min.js"></script>
+    <!-- Contact Form JS -->
+    <script src="./assets/js/jqBootstrapValidation.js"></script>
+    <script src="./assets/js/contact_me.js"></script>
+    <!-- Custom JS -->
+    <script src="./assets/js/scripts.js"></script>
 </body>
 
 </html>
